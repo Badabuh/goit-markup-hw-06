@@ -120,7 +120,7 @@ img{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contact-adress .contact-link:hover,
+.contact-link:hover,
 .contact-link:focus {
     color: #404bbf;
 }
@@ -270,10 +270,6 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.section-ourteam {
-    background: #F4F4FD ;
 }
 
 /* ourTeam */
