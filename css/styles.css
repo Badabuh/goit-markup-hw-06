@@ -6,7 +6,11 @@ body {
 
 h2,h3,h4,h5,h6 {
     color: #2E2F42;
+    margin: 0;
+}
 
+p{
+    margin: 0;
 }
 
 ul {
@@ -21,6 +25,7 @@ a{
 
 img{
     display: block;
+    max-width: 100%;
 }
 
 .container{
@@ -46,7 +51,6 @@ img{
 /* header */
 
 .page-header{
-
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -93,11 +97,16 @@ img{
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding: 24px 0;
+    display: block;
 }
 
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
+}
+
+.studio-link:active{
+
 }
 
 .contact-adress {
@@ -121,9 +130,12 @@ img{
 /* hero page */
 
 .hero-section {
-    background-color: #2E2F42;
     padding: 188px 0;
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/sectionhero/people-office\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 .hero-container{
     display: column;
@@ -182,10 +194,16 @@ img{
     gap: 24px;
 }
 .privileges-item {
-    display: block;
-    border: 1px solid #000;
-    width: calc((100% - 72px) / 4);
-}
+    background: #F4F4FD;
+    width: calc((100% - 72px) / 4);}
+
+/* .privileges-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+
 .privileges-title {
     
     font-weight: 500;
@@ -200,8 +218,7 @@ img{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+    letter-spacing: 0.02em;}
 
 /* privilages */
 
@@ -229,19 +246,17 @@ img{
     gap: 24px;
 }
 .ourteam-list-element {
-    display: block;
     text-align: center;
-    border: 1px solid #000;
-    border-radius: 0 0 4px 4px;
     background: #ffffff;
     width: calc((100% - 72px) / 4);
-    margin-bottom: 8px
 }
 
 .item-container{
     text-align: center;
     padding: 32px 0;
-    margin-bottom: 8px;
+    border: 1px solid #000;
+    border-radius: 0 0 4px 4px;
+    border-top: none;
 }
 .title-list-ourteam {
     font-weight: 500;
