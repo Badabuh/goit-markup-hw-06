@@ -246,6 +246,7 @@ img{
     gap: 24px;
 }
 .ourteam-list-element {
+    border-radius: 0 0 4px 4px;
     text-align: center;
     background: #ffffff;
     width: calc((100% - 72px) / 4);
@@ -254,8 +255,6 @@ img{
 .item-container{
     text-align: center;
     padding: 32px 0;
-    border: 1px solid #000;
-    border-radius: 0 0 4px 4px;
     border-top: none;
 }
 .title-list-ourteam {
