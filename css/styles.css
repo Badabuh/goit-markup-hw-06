@@ -333,7 +333,7 @@ header{
 }
 
 .ourteam-socials-link:hover,
-.ourteam-socials-link:hover
+.ourteam-socials-link:focus
 {
     background-color: #404BBF;
 }
