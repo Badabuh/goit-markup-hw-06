@@ -32,13 +32,13 @@ img{
     margin: 0 auto;
     }
 
-@media screen and (min-width: 768px) and (max-width: 1439px){
+@media screen and (min-width: 768px) and (max-width: 1158px){
     .container{
         width: 736px;
     }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1158px){
     .container{
         width: 1128px;
     }
@@ -179,7 +179,7 @@ header{
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px){
+@media screen and (min-width: 768px) and (max-width: 1158px){
     .adress-list-header{
         flex-direction: column;
     }
@@ -247,7 +247,7 @@ header{
 
 
 
-@media screen and (min-width:768px) and (max-width:1439px) {
+@media screen and (min-width:768px) and (max-width:1158px) {
     .hero-section{
         padding: 112px 0;
     }
@@ -267,7 +267,7 @@ header{
     }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1158px) {
     .hero-section{
         padding: 188px 0;
         max-width: 1440px;
@@ -321,7 +321,7 @@ header{
     letter-spacing: 0.02em;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px){
+@media screen and (min-width: 768px) and (max-width: 1158px){
     .section-privileges {
         padding: 96px 0; 
     }
@@ -344,7 +344,7 @@ header{
     }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1158px){
     .section-privileges {
         padding: 120px 0; 
     }
@@ -460,7 +460,7 @@ header{
 {
     background-color: #404BBF;
 }
-@media screen and (min-width: 768px) and (max-width: 1439px){
+@media screen and (min-width: 768px) and (max-width: 1158px){
     .section-ourteam {
         padding: 96px 0px;
     }
@@ -481,7 +481,7 @@ header{
         line-height: 1.16667;
     }
 }
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1158px){
     .section-ourteam {
         padding: 120px 0px;
     }
@@ -592,7 +592,7 @@ header{
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px){
+@media screen and (min-width: 768px) and (max-width: 1158px){
     .ourportfolio-list {
         column-gap: 24px;
         row-gap: 64px;
@@ -602,7 +602,7 @@ header{
     }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1158px){
     .section-ourportfolio {
         padding: 120px 0;
     }
@@ -781,13 +781,13 @@ header{
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1439px){
+@media screen and (min-width: 768px) and (max-width: 1158px){
     .classfooter{
         padding: 96px 0;
     }
     .container-footer{
         flex-direction: row;
-        align-items: baseline;
+        align-items: flex-start;
         column-gap: 24px;
         row-gap: 72px;
         flex-wrap: wrap;
@@ -819,7 +819,7 @@ header{
     }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1158px){
     .classfooter{
         padding: 100px 0;
     }
@@ -839,22 +839,22 @@ header{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/sectionhero/hero-image-mobile@2x.jpg");    
     }
 }
-@media screen and (min-width:768px) and (max-width:1439px){
+@media screen and (min-width:768px) and (max-width:1158px){
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/sectionhero/hero-image-tablet@1x.jpg");    
     }
 }
-@media screen and (min-width:768px) and (max-width:1439px) and (min-resolution: 192dpi) {
+@media screen and (min-width:768px) and (max-width:1158px) and (min-resolution: 192dpi) {
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/sectionhero/hero-image-tablet@2x.jpg");    
     }
 }
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1158px) {
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/sectionhero/hero-image-desktop@1x.jpg");    
     }
 }
-@media screen and (min-width:1440px) and (min-resolution: 192dpi) {
+@media screen and (min-width:1158px) and (min-resolution: 192dpi) {
     .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/sectionhero/hero-image-desktop@2x.jpg");    
         max-width: 1440px;
